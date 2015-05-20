@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>The KINDLY License</title>
+        <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono:700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/urljs/1.1.0/url.min.js"></script>
+        <style>
+            pre {
+                font-family: 'Ubuntu Mono', monospace;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <pre id="license">The KINDLY License
+Copyright (c) &lt;year&gt; &lt;author&gt;
+
+You have the permission to use this software, read its source code, modify and
+redistribute it under the following terms:
+
+ - if you want to use this software or include parts of its code in a
+   closed-source or commercial project you should kindly ask the
+   author (via a private message or email) and get a positive answer
+ - this license should be included in the modified versions of this software
+ - in case of redistributing modified copies, you are encouraged to clearly
+   indicate that the copies are based on this work.
+ - if you think that your redistributed copy is awesome, you are encouraged to
+   show the author of this software what you did and how you helped the others
+
+You are free to install and use this software on as many machines as you want,
+free of charge, making sure you met the terms above.
+
+You are encouraged to kindly support the software and its author by:
+
+ - sharing his/her work
+ - reporting issues/bugs and asking for feature requests
+ - donating money or any other things that can help
+ - contribute on the software code by fixing bugs and adding features</pre>
+        <script type="text/javascript">
+            (function () {
+                var pre = document.getElementById("license")
+                  , content = pre.innerHTML
+                  , author = Url.queryString("author")
+                  , year = Url.queryString("year")
+                  , thisYear = new Date().getFullYear()
+                  ;
+
+                if (year && /^(1|2)[0-9]+[0-9]+[0-9]+/.test(year) && year < thisYear) {
+                    year = year + "-" + thisYear;
+                    content = content.replace("&lt;year&gt;", year);
+                }
+
+                if (author && /^[a-zăâșțî ]+$/i.test(author)) {
+                    content = content.replace("&lt;author&gt;", author);
+                }
+
+                pre.innerHTML = content;
+            })();
+        </script>
+    </body>
+</html>
