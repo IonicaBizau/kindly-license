@@ -7,8 +7,16 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/urljs/1.1.0/url.min.js"></script>
         <style>
             pre {
-                font-family: 'Ubuntu Mono', monospace;
-                font-weight: bold;
+              font-family: 'Ubuntu Mono', monospace;
+              font-weight: bold;
+              margin: 80px auto;
+              padding: 18px;
+              border-radius: 4px;
+              width: 625px;
+              background-color: white;
+              color: #333;
+              box-shadow: 0 0 25px rgba(0, 0, 0, 0.11);
+              border: 1px solid rgb(236, 236, 236);
             }
         </style>
     </head>
@@ -46,8 +54,15 @@ You are encouraged to kindly support the software and its author by:
                   , thisYear = new Date().getFullYear()
                   ;
 
-                if (year && /^(1|2)[0-9]+[0-9]+[0-9]+/.test(year) && year < thisYear) {
-                    year = year + "-" + thisYear;
+                if (year && /^(1|2)[0-9][0-9][0-9]$/.test(year)) {
+                    if (year < thisYear) {
+                        year = year + "-" + thisYear;
+                    }
+                } else {
+                    year = null;
+                }
+
+                if (year) {
                     content = content.replace("&lt;year&gt;", year);
                 }
 
@@ -58,5 +73,6 @@ You are encouraged to kindly support the software and its author by:
                 pre.innerHTML = content;
             })();
         </script>
+
     </body>
 </html>
