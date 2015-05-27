@@ -14,6 +14,6 @@ Fs.writeFileSync(SRC_PATH.replace("templ.", ""), Barbe(SRC, {
 }));
 
 Fs.writeFileSync(HTML_PATH.replace("templ.", ""), Barbe(HTML, {
-    license: KINDLY
+    license: KINDLY.replace(/</g, "&lt;").replace(/>/g, "&gt;")
 }));
 
