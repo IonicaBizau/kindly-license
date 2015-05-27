@@ -1,0 +1,31 @@
+{
+  "name": "kindly-license",
+  "version": "1.0.0",
+  "description": "A human readable license designed for open-source projects.",
+  "main": "lib/index.js",
+  "dependencies": {
+    "barbe": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IonicaBizau/kindly-license.git"
+  },
+  "keywords": [
+    "kindly",
+    "license",
+    "generator"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": {
+    "name": "KINDLY",
+    "url": "https://ionicabizau.github.com/kindly-license?year=2015&author=Ionică20%Bizău"
+  },
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/kindly-license/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/kindly-license"
+}
