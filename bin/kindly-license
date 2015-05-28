@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 // Dependencies
-var Kindly = require("../src")
+var Kindly = require("../lib")
   , Clp = require("clp")
   , Fs = require("fs")
   , Package = require("../package")
