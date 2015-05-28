@@ -66,7 +66,8 @@
                     content = content.replace("&lt;year&gt;", year);
                 }
 
-                if (author && /^[a-zăâșțî ]+$/i.test(author)) {
+                if (author) {
+                    author = author.replace(/</g, "&lt;").replace(/>/g, "&gt;");
                     content = content.replace("&lt;author&gt;", author);
                 }
 
