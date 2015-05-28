@@ -1,0 +1,45 @@
+#!/usr/bin/env node
+
+// Dependencies
+var Kindly = require("../src")
+  , Clp = require("clp")
+  , Fs = require("fs")
+  , Package = require("../package")
+  , Streamp = require("streamp")
+  ;
+
+// Constants
+const FILE_NAME = "LICENSE";
+
+// Create the clp parser
+var authorOpt = new Clp.Option(["a", "author"], "The copyright holder.", "author", process.env.GIT_AUTHOR_NAME || "")
+  , emailOpt = new Clp.Option(["e", "email"], "The copyright holder email.", "email", process.env.GIT_AUTHOR_EMAIL || "")
+  , yearOpt = new Clp.Option(["y", "year"], "The copyright year.", "email", new Date().getFullYear())
+  , listOpt = new Clp.Option(["o", "output"], "Instead of writing to file, output the license to stdout.")
+  , fileOpt = new Clp.Option(["f", "file"], "The output file.", "path/to/license/file", FILE_NAME)
+  , parser = new Clp({
+        name: "The Kindly License"
+      , version: Package.version
+      , process: true
+      , exe: Package.name
+      , examples: [
+            "kindly -a Alice -y 1990 -e alice@example.com"
+          , "kindly -a Alice -y 1990 -e alice@example.com -o"
+        ]
+      , docs_url: "https://github.com/IonicaBizau/gh-stats"
+    }, [
+        authorOpt, emailOpt, yearOpt, listOpt, fileOpt
+    ])
+  , author = authorOpt.value.trim() ? authorOpt.value.trim() : "<author>"
+  , email = emailOpt.value.trim() ? emailOpt.value.trim() : "email"
+  , license = Kindly(yearOpt.value, author + " <" + email + ">")
+  ;
+
+// Handle the output to stdout
+if (listOpt.is_provided) {
+    return console.log(license);
+}
+
+// Create the writable stream
+var stream = new Streamp.writable(fileOpt.value);
+stream.end(license);
