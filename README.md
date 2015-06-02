@@ -8,6 +8,7 @@ It lets the author to decide if he/she allows using their work in closed source
 projects or not. :four_leaf_clover:
 
 ## The license content
+
 ```
 The KINDLY License
 Copyright (c) <year> <author>
@@ -35,6 +36,16 @@ You are encouraged to kindly support the software and its author by:
  - contribute on the software code by fixing bugs and adding features
 ```
 
+## Notes for developers & contributors
+If you found a way to improve the license content, there are two places where
+you have to change it:
+
+ - in the `LICENSE.kindly` file
+ - in `README.md` (*The license content*)
+
+After modifying `LICENSE.kindly` you can run `npm run install` to update the
+other files.
+
 ## Installation
 You can use this as command line tool and generate KINDLY licenses providing
 the copyright data.
@@ -44,7 +55,7 @@ $ npm install -g kindly-license
 $ kindly-license --help
 ```
 
-If you want to use it programmatically, that's possible too.
+If you want to use it programmatically, that's possible too. See below.
 
 ## Documentation
 ### `KindlyLicense(year, author)`
@@ -58,14 +69,7 @@ Generates a version of the KINDLY license providing the year and the author.
 - **String** The KINDLY License generated for provided data.
 
 ## How to contribute
-1. File an issue in the repository, using the bug tracker, describing the
-   contribution you'd like to make. This will help us to get you started on the
-   right foot.
-2. Fork the project in your account and create a new branch:
-   `your-great-feature`.
-3. Commit your changes in that branch.
-4. Open a pull request, and reference the initial issue in the pull request
-   message.
+Have an idea? Found a bug? See [how you can contribute](/CONTRIBUTING.md).
 
 ## License
 See the [LICENSE](./LICENSE) file.
