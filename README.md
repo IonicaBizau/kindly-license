@@ -55,18 +55,7 @@ $ npm install -g kindly-license
 $ kindly-license --help
 ```
 
-If you want to use it programmatically, that's possible too. See below.
-
-## Documentation
-### `KindlyLicense(year, author)`
-Generates a version of the KINDLY license providing the year and the author.
-
-#### Params
-- **String** `year`: The copyright year.
-- **String** `author`: The copyright holder.
-
-#### Return
-- **String** The KINDLY License generated for provided data.
+If you want to use it programmatically, that's possible too. See [this document](/DOCUMENTATION.md)
 
 ## How to contribute
 Have an idea? Found a bug? See [how you can contribute](/CONTRIBUTING.md).
