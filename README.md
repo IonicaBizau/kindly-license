@@ -1,4 +1,4 @@
-# The KINDLY License
+# The KINDLY License [![Donate now][donate-now]][paypal-donations]
 A human readable license designed for open-source projects.
 
 ## Why yet another open-source license?
@@ -62,3 +62,6 @@ Have an idea? Found a bug? See [how you can contribute](/CONTRIBUTING.md).
 
 ## License
 See the [LICENSE](./LICENSE) file.
+
+[donate-now]: http://i.imgur.com/jioicaN.png
+[paypal-donations]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MG98D7NPFZ3MG
