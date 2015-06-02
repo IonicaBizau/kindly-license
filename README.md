@@ -36,17 +36,17 @@ You are encouraged to kindly support the software and its author by:
  - contribute on the software code by fixing bugs and adding features
 ```
 
-## Notes for developers & contributors
-If you found a way to improve the license content, there are two places where
-you have to change it:
+## Usage
+### Online
+You can use the online version to get a copy of the license:
 
- - in the `LICENSE.kindly` file
- - in `README.md` (*The license content*)
+```
+http://ionicabizau.github.io/kindly-license/?author=Your%20Name&year=2014
+```
 
-After modifying `LICENSE.kindly` you can run `npm run install` to update the
-other files.
+[Here is an example](http://ionicabizau.github.io/kindly-license/?author=Ionic%C4%83%20Biz%C4%83u&year=2014).
 
-## Installation
+### Command line
 You can use this as command line tool and generate KINDLY licenses providing
 the copyright data.
 
@@ -55,10 +55,30 @@ $ npm install -g kindly-license
 $ kindly-license --help
 ```
 
-If you want to use it programmatically, that's possible too. See [this document](/DOCUMENTATION.md)
+### Using as library
+If you want to use it programmatically, that's possible too. See [this document](/DOCUMENTATION.md).
+
+```js
+// Dependencies
+var KindlyLicense = require("kindly-license");
+
+// Output a copy of the license
+console.log(KindlyLicense(new Date().getFullYear(), "Your Name"));
+```
+
 
 ## How to contribute
-Have an idea? Found a bug? See [how you can contribute](/CONTRIBUTING.md).
+Have an idea? Found a bug? See [how to contribute](/CONTRIBUTING.md).
+
+### Editing the license content
+If you found a way to improve the license content, there are two places where
+you have to change it:
+
+ - in the `LICENSE.kindly` file
+ - in `README.md` (*The license content*)
+
+After modifying `LICENSE.kindly` you can run `npm run install` to update the
+other files.
 
 ## License
 See the [LICENSE](./LICENSE) file.
