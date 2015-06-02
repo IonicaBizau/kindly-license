@@ -1,4 +1,4 @@
-# The KINDLY License ![](http://i.imgur.com/Uei0VXa.png)
+# The KINDLY License ![](http://i.imgur.com/jioicaN.png)
 > A human readable license designed for open-source projects.
 
 ## Why yet another open-source license?
