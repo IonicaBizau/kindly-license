@@ -1,5 +1,5 @@
-# The KINDLY License
-A human readable license designed for open-source projects.
+# The KINDLY License ![](http://i.imgur.com/Uei0VXa.png)
+> A human readable license designed for open-source projects.
 
 ## Why yet another open-source license?
 I'm not a supporter of closed source software. I do not use closed source software
