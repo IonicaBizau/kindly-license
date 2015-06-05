@@ -1,7 +1,7 @@
 So, you want to contribute to this project! That's awesome. However, before
 doing so, please read the following simple steps how to contribute. This will
 make the life easier and will avoid wasting time on things which are not
-requested. :sparkless:
+requested. :sparkles:
 
 
 1. First of all, open an issue in the repository, using the [bug tracker][1],
