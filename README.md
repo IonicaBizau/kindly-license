@@ -36,6 +36,9 @@ You are encouraged to kindly support the software and its author by:
  - contribute on the software code by fixing bugs and adding features
 ```
 
+In the `content` you can find the license translated in other languages. If your
+language translation is missing, we would appreciate to add it. :sparkles:
+
 ## Usage
 ### Online
 You can use the online version to get a copy of the license:
@@ -65,7 +68,6 @@ var KindlyLicense = require("kindly-license");
 // Output a copy of the license
 console.log(KindlyLicense(new Date().getFullYear(), "Your Name"));
 ```
-
 
 ## How to contribute
 Have an idea? Found a bug? See [how to contribute](/CONTRIBUTING.md).
