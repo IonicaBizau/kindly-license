@@ -1,4 +1,4 @@
-# :sparkles: :dizzy: :star2: :star2: :sparkles: :dizzy: :star2: :star2: Contributing :star: :star2: :dizzy: :sparkles:  :star: :star2: :dizzy: :sparkles: 
+# :sparkler: :eight_spoked_asterisk: :stars: :sparkles: :dizzy: :star2: :star2: :sparkles: :dizzy: :star2: :star2: Contributing :star: :star2: :dizzy: :sparkles:  :star: :star2: :dizzy: :sparkles: :stars: :eight_spoked_asterisk: :sparkler:
 
 So, you want to contribute to this project! That's awesome. However, before
 doing so, please read the following simple steps how to contribute. This will
