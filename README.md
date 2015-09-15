@@ -13,7 +13,7 @@
 <!-- * * * Thanks! * * *                                                    -->
 <!---------------------------------------------------------------------------->
 
-# `$ kindly-license` [![Donate now][donate-now]][paypal-donations]
+# The KINDLY License [![Donate now][donate-now]][paypal-donations]
 
 A human readable license for projects created by human-beings.
 
