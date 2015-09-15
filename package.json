@@ -23,6 +23,7 @@
     "generator"
   ],
   "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "contributors": [{"name": "Diego Benjamín Aguilar Aguilar", "email": "diegoaguilaraguilar@gmail.com"}],
   "license": "KINDLY",
   "bugs": {
     "url": "https://github.com/IonicaBizau/kindly-license/issues"
