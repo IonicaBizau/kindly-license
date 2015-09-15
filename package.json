@@ -1,7 +1,7 @@
 {
   "name": "kindly-license",
-  "version": "1.1.0",
-  "description": "A human readable license designed for open-source projects.",
+  "version": "1.2.0",
+  "description": "A human readable license for projects created by human-beings.",
   "main": "lib/index.js",
   "bin": {
     "kindly-license": "./bin/kindly-license"
