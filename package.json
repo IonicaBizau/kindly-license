@@ -6,13 +6,16 @@
   "bin": {
     "kindly-license": "./bin/kindly-license"
   },
+  "contributors": [
+    "Diego Benjamín Aguilar Aguilar <diegoaguilaraguilar@gmail.com>"
+  ],
   "scripts": {
     "install": "node build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/IonicaBizau/kindly-license.git"
+    "url": "git+https://github.com/IonicaBizau/kindly-license.git"
   },
   "keywords": [
     "kindly",
@@ -26,9 +29,12 @@
   },
   "homepage": "https://github.com/IonicaBizau/kindly-license",
   "dependencies": {
-    "barbe": "^1.0.0",
-    "clp": "^1.2.0",
-    "streamp": "^1.0.0"
+    "barbe": "^2.0.0",
+    "clp": "^3.0.0",
+    "streamp": "^2.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "directories": {
+    "example": "example"
+  }
 }
