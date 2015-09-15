@@ -20,4 +20,3 @@ Fs.writeFileSync(LIB_PATH.replace("templ.", ""), Barbe(LIB, {
 Fs.writeFileSync(HTML_PATH.replace("templ.", ""), Barbe(HTML, {
     license: KINDLY.replace(/</g, "&lt;").replace(/>/g, "&gt;")
 }));
-
