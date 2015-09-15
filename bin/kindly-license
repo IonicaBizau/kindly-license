@@ -26,7 +26,7 @@ var authorOpt = new Clp.Option(["a", "author"], "The copyright holder.", "author
             "kindly -a Alice -y 1990 -e alice@example.com"
           , "kindly -a Alice -y 1990 -e alice@example.com -o"
         ]
-      , docs_url: "https://github.com/IonicaBizau/gh-stats"
+      , docs_url: Package.homepage
     }, [
         authorOpt, emailOpt, yearOpt, listOpt, fileOpt
     ])
