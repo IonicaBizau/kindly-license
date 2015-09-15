@@ -1,4 +1,4 @@
-# :eight_spoked_asterisk: :stars: :sparkles: :dizzy: :star2: :star2: :sparkles: :dizzy: :star2: :star2: Contributing :star: :star2: :dizzy: :sparkles:  :star: :star2: :dizzy: :sparkles: :stars: :eight_spoked_asterisk: 
+# :eight_spoked_asterisk: :stars: :sparkles: :dizzy: :star2: :star2: :sparkles: :dizzy: :star2: :star2: Contributing :star: :star2: :dizzy: :sparkles:  :star: :star2: :dizzy: :sparkles: :stars: :eight_spoked_asterisk:
 
 So, you want to contribute to this project! That's awesome. However, before
 doing so, please read the following simple steps how to contribute. This will
@@ -6,7 +6,7 @@ make the life easier and will avoid wasting time on things which are not
 requested. :sparkles:
 
 ## Discuss the changes before doing them
- - First of all, open an issue in the repository, using the [bug tracker][1],
+ - First of all, open an issue in the repository, using the [bug tracker][1]
    describing the contribution you'd like to make, the bug you found or any
    other ideas you have. This will help us to get you started on the right
    foot.
@@ -56,5 +56,6 @@ Finally, your contributions will be merged, and everyone will be happy! :smile:
 
 Thanks! :sweat_smile:
 
-[1]: https://github.com/IonicaBizau/kindly-license/issues/new
+[1]: https://github.com/IonicaBizau/kindly-license/issues
+
 [2]: https://github.com/IonicaBizau/code-style
