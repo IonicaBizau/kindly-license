@@ -1,3 +1,4 @@
+
 # `$ kindly-license` [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/kindly-license.svg)](https://www.npmjs.com/package/kindly-license) [![Downloads](https://img.shields.io/npm/dt/kindly-license.svg)](https://www.npmjs.com/package/kindly-license) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > A human readable license for projects created by human-beings.
@@ -36,27 +37,31 @@ You are encouraged to kindly support the software and its author by:
 
 In the `i18n` directory you can find the license translated in other languages. If your language translation is missing, we would appreciate to add it. :sparkles:
 
+
 You can install the package globally and use it as command line tool:
+
 
 ```sh
 $ npm i -g kindly-license
 ```
 
+
 Then, run `kindly-license --help` and see what the CLI tool can do.
 
-```sh
+
+```
 $ kindly-license --help
 Usage: kindly-license [options]
 
 Options:
-  -a, --author <author>              The copyright holder.                            
-  -e, --email <email>                The copyright holder email.                      
-  -y, --year <email>                 The copyright year.                              
+  -a, --author <author>              The copyright holder.
+  -e, --email <email>                The copyright holder email.
+  -y, --year <email>                 The copyright year.
   -o, --output                       Instead of writing to file, output the license to
-                                     stdout.                                          
-  -f, --file <path/to/license/file>  The output file.                                 
-  -h, --help                         Displays this help.                              
-  -v, --version                      Displays version information.                    
+                                     stdout.
+  -f, --file <path/to/license/file>  The output file.
+  -h, --help                         Displays this help.
+  -v, --version                      Displays version information.
 
 Examples:
   kindly -a Alice -y 1990 -e alice@example.com
@@ -85,13 +90,16 @@ $ npm install -g kindly-license
 $ kindly-license --help
 ```
 
-## Example
+## :clipboard: Example
+
 
 Here is an example how to use this package as library. To install it locally, as library, you can do that using `npm`:
 
 ```sh
 $ npm i --save kindly-license
 ```
+
+
 
 ```js
 // Dependencies
@@ -101,19 +109,23 @@ var KindlyLicense = require("kindly-license");
 console.log(KindlyLicense(new Date().getFullYear(), "Ionică Bizău"));
 ```
 
-## How to contribute
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
 ### Editing the license content
 
 If you found a way to improve the license content, there are two places where you have to change it:
 
+
  - in the `LICENSE.kindly` file
  - in `README.md` (*The license content*)
 
+
 After modifying `LICENSE.kindly` you can run `npm run install` to update the other files.
 
-## License
+
+
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
