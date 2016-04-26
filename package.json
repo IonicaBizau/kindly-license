@@ -1,6 +1,6 @@
 {
   "name": "kindly-license",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "A human readable license for projects created by human-beings.",
   "main": "lib/index.js",
   "bin": {
@@ -134,5 +134,16 @@
         "p": "After modifying `LICENSE.kindly` you can run `npm run install` to update the other files."
       }
     ]
-  }
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
