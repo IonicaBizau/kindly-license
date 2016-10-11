@@ -1,6 +1,6 @@
 {
   "name": "kindly-license",
-  "version": "1.4.4",
+  "version": "1.4.5",
   "description": "A human readable license for projects created by human-beings.",
   "main": "lib/index.js",
   "bin": {
@@ -139,6 +139,7 @@
     "bin/",
     "app/",
     "lib/",
+    "build/",
     "dist/",
     "src/",
     "resources/",
