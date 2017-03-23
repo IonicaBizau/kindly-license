@@ -111,6 +111,15 @@ var KindlyLicense = require("kindly-license");
 console.log(KindlyLicense(new Date().getFullYear(), "Ionică Bizău"));
 ```
 
+## :question: Get Help
+
+There are few ways to get help:
+
+ 1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.
+ 2. For bug reports and feature requests, open issues. :bug:
+ 3. For direct and quick help from me, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:
+
+
 ## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
@@ -139,6 +148,7 @@ If you found a way to improve the license content, there are two places where yo
 
  - in the `LICENSE.kindly` file
  - in `README.md` (*The license content*)
+
 
 After modifying `LICENSE.kindly` you can run `npm run install` to update the other files.
 
