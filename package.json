@@ -1,6 +1,6 @@
 {
   "name": "kindly-license",
-  "version": "1.4.7",
+  "version": "1.4.8",
   "description": "A human readable license for projects created by human-beings.",
   "main": "lib/index.js",
   "bin": {
@@ -145,6 +145,9 @@
     "resources/",
     "menu/",
     "cli.js",
-    "index.js"
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
   ]
 }
