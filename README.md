@@ -9,9 +9,11 @@
 
 ## Why yet another license?
 
+
 I'm not a supporter of closed source software. I do not promote it. This license contains simple and human readable terms. It lets the author to decide if he/she allows using their work in closed source projects or not. :four_leaf_clover:
 
 ## The license content
+
 ```
 The KINDLY License
 Copyright (c) <year> <author>
@@ -39,6 +41,7 @@ You are encouraged to kindly support the software and its author by:
  - contribute on the software code by fixing bugs and adding features
 ```
 
+
 In the `i18n` directory you can find the license translated in other languages. If your language translation is missing, we would appreciate to add it. :sparkles:
 
 
@@ -46,7 +49,11 @@ You can install the package globally and use it as command line tool:
 
 
 ```sh
-$ npm i -g kindly-license
+# Using npm
+npm install --global kindly-license
+
+# Using yarn
+yarn global add kindly-license
 ```
 
 
@@ -75,7 +82,9 @@ Documentation can be found at https://github.com/IonicaBizau/kindly-license
 ```
 
 ## Usage
+
 ### Online
+
 
 You can use the online version to get a copy of the license:
 
@@ -83,9 +92,11 @@ You can use the online version to get a copy of the license:
 http://ionicabizau.github.io/kindly-license/?author=Your%20Name&year=2014
 ```
 
+
 [Here is an example](http://ionicabizau.github.io/kindly-license/?author=Ionic%C4%83%20Biz%C4%83u&year=2014).
 
 ### Command line
+
 
 You can use this as command line tool and generate KINDLY licenses providing the copyright data.
 
@@ -94,13 +105,18 @@ $ npm install -g kindly-license
 $ kindly-license --help
 ```
 
+
 ## :clipboard: Example
 
 
-Here is an example how to use this package as library. To install it locally, as library, you can do that using `npm`:
+Here is an example how to use this package as library. To install it locally, as library, you can do that using `npm` (or `yarn`):
 
 ```sh
-$ npm i --save kindly-license
+# Using npm
+npm install --save kindly-license
+
+# Using yarn
+yarn add kindly-license
 ```
 
 
@@ -121,7 +137,9 @@ There are few ways to get help:
 
  1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.
  2. For bug reports and feature requests, open issues. :bug:
+
  3. For direct and quick help, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:
+
 
 
 ## :memo: Documentation
@@ -151,6 +169,7 @@ Thanks! :heart:
 
 
 ### Editing the license content
+
 
 If you found a way to improve the license content, there are two places where you have to change it:
 
